@@ -1,8 +1,13 @@
+" odo.vim
+" Author:  Joshua Priddle <jpriddle@nevercraft.net>
+" URL:     https://github.com/itspriddle/vim-odo
+" Version: 0.1.0
+" License: Same as Vim itself (see :help license)
+
 if exists('g:loaded_odo') || &cp || ! has('gui_macvim')
   finish
 endif
 let g:loaded_odo = 1
-
 
 function! s:ResizeWindow(direction, ...)
   let steps = a:0 ? a:1 : 10
