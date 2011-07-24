@@ -12,17 +12,17 @@ Odo provides the following mappings out of the box:
 
 **Resizing the GUI window**
 
-Increase width:  `<C-M-l>`
-Decrease width:  `<C-M-h>`
-Increase height: `<C-M-k>`
-Decrease height: `<C-M-j>`
+* Increase width:  `<C-M-l>`
+* Decrease width:  `<C-M-h>`
+* Increase height: `<C-M-k>`
+* Decrease height: `<C-M-j>`
 
 **Moving the GUI window**
 
-Move right: `<M-l>`
-Move left:  `<M-h>`
-Move down:  `<M-j>`
-Mode up:    `<M-k>`
+* Move right: `<M-l>`
+* Move left:  `<M-h>`
+* Move down:  `<M-j>`
+* Move up:    `<M-k>`
 
 Odo also provides commands to move and resize the GUI window, `:Guiresize` and
 `:Guinudge`.
